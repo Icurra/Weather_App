@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  font-family: cursive;
+}
+
+#saveBtn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.weather-hot {
+background-color: red;
+}
+
+.weather-warm {
+background-color: orange;
+}
+
+.weather-normal {
+background-color: yellow;
+}
+
+ul {
+  width: 100px;
+  margin: 0em auto;
+}
+
+li {
+  cursor: pointer;
+}
