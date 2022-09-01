@@ -40,7 +40,7 @@ function updateSavedCities(name) {
 
 function getWeather(city) {
   fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=c5732aa33b65fc0750b29be0398835ca&units=imperial`
+    `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid={APPID}&units=imperial`
   )
     .then((res) => res.json())
     .then((body) => {
